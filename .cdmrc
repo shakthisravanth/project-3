@@ -2,10 +2,10 @@ tabs:
   - app/Main.java
 
 run-button: >
-  javac Numbers/*.java app/*.java &&
+  javac numbers/*.java app/*.java &&
   java -cp . app.Main
 
 terminals:
-  - javac Numbers/*.java app/*.java && java -cp . app.Main
+  - javac numbers/*.java app/*.java && java -cp . app.Main
 
 playground-view: terminal-editor
