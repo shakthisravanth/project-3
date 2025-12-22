@@ -6,10 +6,10 @@ tabs:
   - LearningPackages/school/HeadMaster.java
 
 run-button: >
-  javac LearningPackages/school/*.java LearningPackages/app/SchoolApp.java &&
+  javac -d . LearningPackages/school/*.java LearningPackages/app/SchoolApp.java &&
   java -cp . app.SchoolApp
 
 terminals:
-  - javac LearningPackages/school/*.java LearningPackages/app/SchoolApp.java && java -cp . app.SchoolApp
+  - javac -d . LearningPackages/school/*.java LearningPackages/app/SchoolApp.java && java -cp . app.SchoolApp
 
 playground-view: terminal-editor
