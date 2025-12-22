@@ -1,11 +1,13 @@
 tabs:
-  - app/Main.java
+  - ImplementingPackages/app/Main.java
+  - ImplementingPackages/numbers/One.java
+  - ImplementingPackages/numbers/Two.java
 
 run-button: >
-  javac numbers/*.java app/*.java &&
+  javac -d . ImplementingPackages/numbers/*.java ImplementingPackages/app/Main.java &&
   java -cp . app.Main
 
 terminals:
-  - javac numbers/*.java app/*.java && java -cp . app.Main
+  - javac -d . ImplementingPackages/numbers/*.java ImplementingPackages/app/Main.java && java -cp . app.Main
 
 playground-view: terminal-editor
