@@ -7,9 +7,9 @@ tabs:
 
 run-button: >
   javac LearningPackages/school/*.java LearningPackages/app/SchoolApp.java &&
-  java -cp . app/SchoolApp
+  java -cp . app.SchoolApp
 
 terminals:
-  - javac LearningPackages/school/*.java LearningPackages/app/SchoolApp.java && java -cp . app/SchoolApp
+  - javac LearningPackages/school/*.java LearningPackages/app/SchoolApp.java && java -cp . app.SchoolApp
 
 playground-view: terminal-editor
