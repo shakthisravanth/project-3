@@ -1,8 +1,3 @@
-tabs:
-  - ImplementingPackages/app/Main.java
-  - ImplementingPackages/numbers/One.java
-  - ImplementingPackages/numbers/Two.java
-
 run-button: >
   javac -d . ImplementingPackages/numbers/*.java ImplementingPackages/app/Main.java &&
   java -cp . app.Main
