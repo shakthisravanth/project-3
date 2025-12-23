@@ -1,23 +1,13 @@
 // package declaration
 
-// import Person and Student classes
+// import Bank, SBI, and HDFC classes
 
 // Main class
 
 // main method
 
-// create Person object
+// create Bank reference with SBI object
 
-// assign name to person
+// create Bank reference with HDFC object
 
-// display person name
-
-// create Student object
-
-// assign name to student
-
-// assign roll number to student
-
-// display student name
-
-// display student roll number
+// call interestRate method using polymorphism
