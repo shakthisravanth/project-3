@@ -1,8 +1,8 @@
 run-button: >
-  javac -d . LearningMethodOverriding/model/*.java LearningMethodOverriding/app/Main.java &&
+  javac -d . LearningMethodOverriding/model/*.java LearningMethodOverriding/app/*.java &&
   java -cp . app.Main
 
 terminals:
-  - javac -d . LearningMethodOverriding/model/*.java LearningMethodOverriding/app/Main.java && java -cp . app.Main
+  - javac -d . LearningMethodOverriding/model/*.java LearningMethodOverriding/app/*.java && java -cp . app.Main
 
 playground-view: terminal-editor
