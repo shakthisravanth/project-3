@@ -1,8 +1,8 @@
 run-button: >
   javac LearningMethodOverriding/model/*.java LearningMethodOverriding/app/*.java &&
-  java -cp LearningMethodOverriding/app:LearningMethodOverriding/model app.Main
+  java -cp LearningMethodOverriding/app:LearningMethodOverriding/model Main
 
 terminals:
-  - javac LearningMethodOverriding/model/*.java LearningMethodOverriding/app/*.java && java -cp LearningMethodOverriding/app:LearningMethodOverriding/model app.Main
+  - javac LearningMethodOverriding/model/*.java LearningMethodOverriding/app/*.java && java -cp LearningMethodOverriding/app:LearningMethodOverriding/model Main
 
 playground-view: terminal-editor
