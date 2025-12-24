@@ -1,16 +1,8 @@
-tabs:
-  - LearningPackages/Main.java
-  - LearningPackages/app/SchoolApp.java
-  - LearningPackages/school/Student.java
-  - LearningPackages/school/Teacher.java
-  - LearningPackages/school/Principal.java
-  - LearningPackages/school/HeadMaster.java
-
 run-button: >
-  javac -d . LearningPackages/Main.java LearningPackages/app/SchoolApp.java LearningPackages/school/*.java &&
-  java -cp . app.SchoolApp
+  javac LearningPackages/app/*.java LearningPackages/school/*.java &&
+  java -cp LearningPackages app.SchoolApp
 
 terminals:
-  - javac -d . LearningPackages/Main.java LearningPackages/app/SchoolApp.java LearningPackages/school/*.java && java -cp . app.SchoolApp
+  - javac LearningPackages/app/*.java LearningPackages/school/*.java && java -cp LearningPackages app.SchoolApp
 
 playground-view: terminal-editor
