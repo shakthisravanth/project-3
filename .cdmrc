@@ -1,0 +1,8 @@
+run-button: >
+  javac StudentProject/model/*.java StudentProject/repository/*.java StudentProject/app/*.java &&
+  java -cp StudentProject app.Main
+
+terminals:
+  - javac StudentProject/model/*.java StudentProject/repository/*.java StudentProject/app/*.java && java -cp StudentProject app.Main
+
+playground-view: terminal-editor
