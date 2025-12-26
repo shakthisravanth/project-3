@@ -1,0 +1,8 @@
+run-button: >
+  javac BasicATM/model/*.java BasicATM/repository/*.java BasicATM/service/*.java BasicATM/ui/*.java &&
+  java -cp BasicATM ui.ATMUI
+
+terminals:
+  - javac BasicATM/model/*.java BasicATM/repository/*.java BasicATM/service/*.java BasicATM/ui/*.java && java -cp BasicATM ui.ATMUI
+
+playground-view: terminal-editor
