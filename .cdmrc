@@ -1,0 +1,8 @@
+run-button: >
+  javac GreetingSystem/greet/*.java GreetingSystem/app/*.java &&
+  java -cp GreetingSystem app.Main
+
+terminals:
+  - javac GreetingSystem/greet/*.java GreetingSystem/app/*.java && java -cp GreetingSystem app.Main
+
+playground-view: terminal-editor
